@@ -1,2 +1,12 @@
 @import "tailwindcss";
 
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    height: 200px;
+    width: 150px;
+}

@@ -9,7 +9,7 @@ function App() {
     const data = await fetch("https://dummyjson.com/products");
     const response = await data.json();
 
-    console.log(response);
+    // console.log(response);
     setProducts(response.products);
   }
 

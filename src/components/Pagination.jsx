@@ -3,7 +3,7 @@ import Card from './Card'
 
 const Pagination = ({ products }) => {
   return (
-    <div>
+    <div className='page'>
       {products.map((product, index) => (
         <Card product={product} key={index}/>
       ))}
