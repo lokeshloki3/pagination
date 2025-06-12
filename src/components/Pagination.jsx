@@ -1,8 +1,13 @@
 import React from 'react'
+import Card from './Card'
 
-const Pagination = () => {
+const Pagination = ({ products }) => {
   return (
-    <div>Pagination</div>
+    <div>
+      {products.map((product, index) => (
+        <Card product={product} key={index}/>
+      ))}
+    </div>
   )
 }
 
